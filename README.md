@@ -1,4 +1,4 @@
-[中文版](https://github.com/Waytoon/chimera_flutter_code_push/blob/main/ReadMe_ZH.md)
+[中文版](./ReadMe_ZH.md)
 
 # Chimera Flutter Code Push
 
