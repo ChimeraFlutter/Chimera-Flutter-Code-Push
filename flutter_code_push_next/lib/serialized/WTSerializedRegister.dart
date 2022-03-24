@@ -1,0 +1,145 @@
+import 'package:flutter_code_push_next/InternalIndex.dart';
+
+class WTSerializedRegister {
+  late Map<int, Function> registers;
+
+  WTSerializedRegister() {
+    registers = new Map<int, Function>();
+    initializer();
+  }
+
+  void initializer() {
+    registers[1] = () => WTIfStatement();
+    registers[2] = () => WTParenthesizedExpression();
+    registers[3] = () => WTFieldDeclaration();
+    registers[4] = () => WTForStatement();
+    registers[5] = () => WTScriptTag();
+    registers[6] = () => WTSpreadElement();
+    registers[7] = () => WTLibraryDirective();
+    registers[8] = () => WTIsExpression();
+    registers[9] = () => WTAdjacentStrings();
+    registers[10] = () => WTSimpleIdentifierImpl();
+    registers[11] = () => WTMapLiteralEntry();
+    registers[12] = () => WTRedirectingConstructorInvocation();
+    registers[13] = () => WTFormalParameterList();
+    registers[14] = () => WTDoStatement();
+    registers[15] = () => WTSwitchDefault();
+    registers[16] = () => WTMethodInvocation();
+    registers[17] = () => WTSwitchStatement();
+    registers[18] = () => WTExtensionOverride();
+    registers[19] = () => WTWhileStatement();
+    registers[20] = () => WTSwitchCase();
+    registers[21] = () => WTWithClause();
+    registers[22] = () => WTAssignmentExpression();
+    registers[23] = () => WTInterpolationExpression();
+    registers[24] = () => WTAsExpression();
+    registers[25] = () => WTNullLiteral();
+    registers[26] = () => WTExtendsClause();
+    registers[27] = () => WTForEachPartsWithDeclaration();
+    registers[28] = () => WTSuperConstructorInvocation();
+    registers[29] = () => WTForPartsWithDeclarations();
+    registers[30] = () => WTTopLevelVariableDeclaration();
+    registers[31] = () => WTInterpolationString();
+    registers[32] = () => WTCommentReference();
+    registers[33] = () => WTAwaitExpression();
+    registers[34] = () => WTThrowExpression();
+    registers[35] = () => WTDoubleLiteral();
+    registers[36] = () => WTFunctionDeclarationStatement();
+    registers[37] = () => WTTypeArgumentList();
+    registers[38] = () => WTFunctionBodyDeclaration();
+    registers[39] = () => WTPrefixExpression();
+    registers[40] = () => WTSymbolLiteral();
+    registers[41] = () => WTGenericTypeAlias();
+    registers[42] = () => WTForElement();
+    registers[43] = () => WTVariableDeclaration();
+    registers[44] = () => WTGenericFunctionType();
+    registers[45] = () => WTEmptyFunctionBody();
+    registers[46] = () => WTNativeFunctionBody();
+    registers[47] = () => WTCascadeExpression();
+    registers[48] = () => WTBreakStatement();
+    registers[49] = () => WTPartDirective();
+    registers[50] = () => WTFunctionExpressionInvocation();
+    registers[51] = () => WTSimpleFormalParameter();
+    registers[52] = () => WTAssertStatement();
+    registers[53] = () => WTEnumDeclaration();
+    registers[54] = () => WTTypeParameter();
+    registers[55] = () => WTNativeClause();
+    registers[56] = () => WTArgumentList();
+    registers[57] = () => WTTryStatement();
+    registers[58] = () => WTClassTypeAlias();
+    registers[59] = () => WTPartOfDirective();
+    registers[60] = () => WTBooleanLiteral();
+    registers[61] = () => WTBlock();
+    registers[62] = () => WTIfElement();
+    registers[63] = () => WTConstructorFieldInitializer();
+    registers[64] = () => WTFunctionExpression();
+    registers[65] = () => WTCatchClause();
+    registers[66] = () => WTUnitDeclaration();
+    registers[67] = () => WTClassDeclaration();
+    registers[68] = () => WTVariableDeclarationStatement();
+    registers[69] = () => WTInstanceCreationExpression();
+    registers[70] = () => WTReturnStatement();
+    registers[71] = () => WTExpressionStatement();
+    registers[72] = () => WTOnClause();
+    registers[73] = () => WTYieldStatement();
+    registers[74] = () => WTExtensionDeclaration();
+    registers[75] = () => WTTypeParameterList();
+    registers[76] = () => WTSetOrMapLiteral();
+    registers[77] = () => WTBinaryExpression();
+    registers[78] = () => WTSuperExpression();
+    registers[79] = () => WTConfiguration();
+    registers[80] = () => WTImplementsClause();
+    registers[81] = () => WTIntegerLiteral();
+    registers[82] = () => WTNamedExpression();
+    registers[83] = () => WTMethodDeclaration();
+    registers[84] = () => WTSimpleIdentifier();
+    registers[85] = () => WTPostfixExpression();
+    registers[86] = () => WTDefaultFormalParameter();
+    registers[87] = () => WTMixinDeclaration();
+    registers[88] = () => WTConstructorDeclaration();
+    registers[89] = () => WTFunctionTypedFormalParameter();
+    registers[90] = () => WTImportDirective();
+    registers[91] = () => WTLabel();
+    registers[92] = () => WTThisExpression();
+    registers[93] = () => WTRethrowExpression();
+    registers[94] = () => WTForPartsWithExpression();
+    registers[95] = () => WTIndexExpression();
+    registers[96] = () => WTConditionalExpression();
+    registers[97] = () => WTPrefixedIdentifier();
+    registers[98] = () => WTFieldFormalParameter();
+    registers[99] = () => WTLibraryIdentifier();
+    registers[100] = () => WTConstructorName();
+    registers[101] = () => WTSimpleStringLiteral();
+    registers[102] = () => WTForEachPartsWithIdentifier();
+    registers[103] = () => WTEnumConstantDeclaration();
+    registers[104] = () => WTNamedType();
+    registers[105] = () => WTDottedName();
+    registers[106] = () => WTVariableDeclarationList();
+    registers[107] = () => WTAssertInitializer();
+    registers[108] = () => WTAnnotation();
+    registers[109] = () => WTStringInterpolation();
+    registers[110] = () => WTExpressionFunctionBody();
+    registers[111] = () => WTContinueStatement();
+    registers[112] = () => WTFunctionDeclaration();
+    registers[113] = () => WTBlockFunctionBody();
+    registers[114] = () => WTExportDirective();
+    registers[115] = () => WTPropertyAccess();
+    registers[116] = () => WTHideCombinator();
+    registers[117] = () => WTShowCombinator();
+    registers[118] = () => WTFunctionTypeAlias();
+    registers[119] = () => WTComment();
+    registers[120] = () => WTCompilationUnit();
+    registers[121] = () => WTDeclaredIdentifier();
+    registers[122] = () => WTListLiteral();
+    registers[123] = () => WTEmptyStatement();
+    registers[124] = () => WTLabeledStatement();
+  }
+
+  WTBaseDeclaration? getBaseDeclaration(int serializedID) {
+    var func = registers[serializedID]!;
+    var value = func();
+    return value;
+  }
+}
+
+WTSerializedRegister serializedRegisters = new WTSerializedRegister();

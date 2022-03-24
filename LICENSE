@@ -1,21 +1,79 @@
-MIT License
+Copyright (c) 2021 by Waytoon
+"Chimera Flutter Code Push SDK"
 
-Copyright (c) 2022 ChimeraFlutter
+All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+In order to enable you to use this source code correctly and legally, please read the following terms of agreement before use:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. This license agreement is applicable and  applicable to Chimera Flutter Code Push. Waytoon officially 
+has the final right to interpret this license agreement.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. Redistribution and use in source and binary forms, with or without modification, 
+are permitted provided that the following conditions are met. These conditions
+require a modest attribution to <AUTHOR> (the"Author"), who hopes that its 
+promotional value may help justify thethousands of dollars in otherwise billable
+time invested in writingthis and other freely available, open-source software.
+And Waytoon has the final right to interpret this license agreement.
+ 
+ 2.1 You can use this source code for non-commercial purposes on the basis of fully complying 
+  with this end user license agreement, without having to pay software/source code copyright 
+  authorization fees.
+ 2.2 Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+ 2.3 Redistributions of source code, in whole or part and with or without modification (the  
+  "Code"),    must prominently display this GPG-signed text in verifiable form. 
+ 2.4 Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+ 2.5  Redistributions of the Code in binary form must be accompanied bythis GPG-signed text in 
+  any documentation and, each time the resultingexecutable program or a program dependent 
+  thereon is launched, aprominent display (e.g., splash screen or banner text) of the 
+  Author'sattribution information, which includes:
+   (a) Name (“Waytoon"),
+   (b) Professional identification (“Chimera Flutter Code Push"), and
+   (c) GitHub URL("https://github.com/Waytoon/chimera_flutter_code_push").
+ 2.6 Without official permission, it is prohibited to develop any derivative version, modified version 
+  or third-party version for redistribution on the basis of the whole or any part of this source 
+  code..
+
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE   
+ ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE 
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS 
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN 
+ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE 
+ POSSIBILITY OF SUCH DAMAGE.
+ 
+ 为了使您能够正确合法地使用此源代码，请在使用前阅读以下协议条款：
+ 1.本许可协议适用于Chimera Flutter Code Push。 Waytoon正式拥有解释此许可协议的最终权利。
+ 2.无论是否经过修改，都以源代码和二进制形式重新分发和使用，满足以下条件是允许的。这些条
+  件要求对<AUTHOR>（以下简称“作者”）进行适度的注明。
+  Waytoon拥有解释此许可协议的最终权利。
+  
+  2.1 您可以在完全遵守本最终用户授权协议的基础上，将本软件应用于非商业用途，而不必支付软
+  件版权授权费用。
+  2.2 重新分发源代码必须保留上述版权声明，条件列表和以下免责声明。
+  2.3 重新分配源代码的全部或部分，并进行或不进行修改（“代码”），必须以可验证的形式突出显
+  示此GPG签名的文本。
+  2.4 以二进制形式重新分发必须复制上述版权声明，此条件列表以及文档中的以下免责声明
+  和/或分发中提供的其他材料。
+  2.5 二进制形式的代码重新分发必须随附GPG签名的以下文本：任何文档，以及每次生成的可执
+  行程序或程序相关的内容，并在屏幕上突出显示（例如，启动画面或广告文字）作者的出处信
+  息，其中包括：
+   （a）名称（“ Waytoon”），
+   （b）专业鉴定（“ Chimera Flutter代码推送”），以及
+   （c）GitHub URL（“ https://github.com/Waytoon/chimera_flutter_code_push”）。
+  2.6 未经官方许可，禁止开发任何衍生版本，修改版本或基于此源的全部或任何部分进行重新分发
+  的第三方版本代码。
+  
+  此软件由版权所有者和贡献者“按原样”提供以及任何明示或暗示的担保，包括但不限于
+  对于特定用途的适销性和适用性的默示担保不承担任何责任。在任何情况下，版权所有
+  人或贡献者均不得对任何直接，间接，偶然，特殊，示范或任何责任后果性损害（包括
+  但不限于购买替代商品或服务；使用，数据或利润的损失；或业务中断）以及任何责任
+  理论，无论是在合同，严格责任或侵权（包括过失或其他）即使在不建议使用本软件的
+  情况下，以任何方式引起使用本软件的后果发生此类损坏的可能性。

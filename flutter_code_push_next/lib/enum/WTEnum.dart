@@ -1,0 +1,4 @@
+enum WTDirectiveEnum {
+  Import,
+  Export,
+}
